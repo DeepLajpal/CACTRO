@@ -1,0 +1,54 @@
+.introContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6vw;
+
+  .imgContainer {
+    width: 50%;
+    height: 50%;
+    flex-shrink: 0;
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 50%;
+    padding: 1em 8em;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      width: fit-content;
+
+      > * {
+        margin-top: 1.5em;
+      }
+      h2 {
+        margin-top: 0em;
+        font-size: 2.8em;
+      }
+      p {
+        font-size: 1.6em;
+      }
+      button {
+        width: fit-content;
+        padding: 1.1em 2.5em;
+        border-radius: 0.3em;
+        border: 0.1em solid #642067;
+        margin-right: 0.8em;
+        color: #642067;
+        background-color: transparent;
+        cursor: pointer;
+        font-weight: 600;
+      }
+    }
+  }
+}

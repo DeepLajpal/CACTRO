@@ -1,0 +1,10 @@
+html {
+  font-size: 62.5%;
+  background-color: #f7efe8;
+  font-family: sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}

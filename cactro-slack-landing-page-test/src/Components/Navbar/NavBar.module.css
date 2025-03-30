@@ -1,0 +1,104 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .dropdown__arrow {
+    display: flex;
+    align-items: cneter;
+    justify-items: center;
+  }
+}
+
+.leftNav {
+  display: flex;
+
+  .leftNav__left {
+    display: flex;
+    text-align: center;
+    margin: 1.6rem;
+  }
+  .leftNav__left--img {
+    height: 5rem;
+    width: 8rem;
+    object-fit: contain;
+  }
+  .leftNav__right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftNav__right > li {
+    display: flex;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .leftNav__right > li:last-child {
+    margin-right: 0px;
+  }
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+
+  > div {
+    margin-right: 1rem;
+  }
+
+  .rightNav__search {
+    padding: 0.6rem 1.2rem;
+
+    * {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  .rightNav__signIn {
+    padding: 0.6rem 1.2rem;
+
+    * {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  .rightNav__CTA--talkToSales > button,
+  .rightNav__CTA--tryForFree > button {
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  .rightNav__CTA--talkToSales {
+    margin-right: 1.6rem;
+  }
+  .rightNav__CTA--talkToSales > button {
+    color: #642067;
+    background-color: transparent;
+    border: 0.1rem solid#642067;
+  }
+  .rightNav__CTA--tryForFree > button {
+    border: none;
+    background-color: #642067;
+    color: white;
+    padding: 0.9rem 1.2rem;
+  }
+}
