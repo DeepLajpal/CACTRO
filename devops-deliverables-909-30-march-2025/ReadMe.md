@@ -1,4 +1,4 @@
-# Log Archival Pipeline
+# Automated Log Archival Pipeline
 
 ## Overview
 
