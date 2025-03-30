@@ -4,7 +4,7 @@
 
 This project automates the archival of application logs from an EC2 instance to an S3 bucket daily. Logs are compressed and stored in the `logs/YYYY-MM-DD/` structure with versioning enabled.
 
-## Steps Followed
+## Steps Followed (Total time taken: ~ 6hrs 15min)
 
 1. **Launch EC2 Instance** (30 mins)
    - Created an Amazon Linux 2 EC2 instance. (t2.micro instance)
@@ -30,7 +30,7 @@ This project automates the archival of application logs from an EC2 instance to 
    - Scheduled it via cron to run daily at midnight.
    - Cron Job `* * * * * sudo /home/ec2-user/upload_logs.sh` for testing
    - Cron Job for real scenario can be `0 0 * * * sudo /home/ec2-user/upload_logs.sh`
-6. **Submit Deliverables** (4hrs 50 mins)
+6. **Submit Deliverables** (4hrs)
    - Tested and verified the setup.
    - Collected logs and screenshots.
    - Submitted the required files.
