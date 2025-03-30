@@ -7,7 +7,9 @@ This project automates the archival of application logs from an EC2 instance to 
 ## Steps Followed
 
 1. **Launch EC2 Instance** (30 mins)
-   - Created an Amazon Linux 2 EC2 instance.
+   - Created an Amazon Linux 2 EC2 instance. (t2.micro instance)
+   - Created the default VPC
+   - created the pem file and download it into the download directory
    - Configured security group to allow SSH only from my IP.
 2. **Set Up Log Generation** (20 mins)
    - Created a cron job to write log entries to `/var/log/app.log` every minute.
