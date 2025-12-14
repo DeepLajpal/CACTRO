@@ -1,6 +1,6 @@
 # CACTRO BACKEND TEST
 
-## #1 Challenge
+## #1 Challenge - how to output my resume on the terminal
 
 ## Rough Time Breakdown Of Tasks
 

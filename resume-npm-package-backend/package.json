@@ -1,6 +1,6 @@
 {
   "name": "deeplajpal",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Prints the resume of Deep Navin lajpal, When someone runs package via npx, it will display resume directly in the terminal.",
   "keywords": [
     "Resume"
