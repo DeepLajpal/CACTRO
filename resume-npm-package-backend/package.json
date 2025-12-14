@@ -1,0 +1,26 @@
+{
+  "name": "deeplajpal",
+  "version": "1.1.0",
+  "description": "Prints the resume of Deep Navin lajpal, When someone runs package via npx, it will display resume directly in the terminal.",
+  "keywords": [
+    "Resume"
+  ],
+  "homepage": "https://github.com/DeepLajpal/CACTRO#readme",
+  "bugs": {
+    "url": "https://github.com/DeepLajpal/CACTRO/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepLajpal/CACTRO.git"
+  },
+  "license": "ISC",
+  "author": "Deep Navin Lajpal",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deeplajpal": "./bin/cli.js"
+  }
+}
