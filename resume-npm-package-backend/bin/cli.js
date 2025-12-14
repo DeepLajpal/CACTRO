@@ -3,7 +3,7 @@
 console.log(`
 ────────────────────────────────────────────────────────
 DEEP NAVIN LAJPAL
-Frontend Web Developer
+SOFTWARE DEVELOPMENT ENGINEER
 ────────────────────────────────────────────────────────
 Email     : deeplajpal.work@gmail.com
 Phone     : +91-***
@@ -17,7 +17,7 @@ LeetCode  : @deeplajpal | Code360: @deeplajpal
 ────────────────────────────────────────────────────────
 SUMMARY
 ────────────────────────────────────────────────────────
-• 6 months of professional experience as SDE
+• 6 months of experience as SDE
 • Solved 100+ DSA problems | BCA Graduate
 • Experience in AI Chatbot SaaS Dashboards & E-commerce
 • Strong in React JS, JavaScript (ES6+), Git, Figma
